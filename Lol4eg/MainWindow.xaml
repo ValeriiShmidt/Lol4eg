@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Lol4eg"
         mc:Ignorable="d"
         Title="Lol4eg)" Width="532" Height="475"
-        ResizeMode="NoResize">
+        ResizeMode="CanMinimize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>

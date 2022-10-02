@@ -24,11 +24,7 @@ namespace Lol4eg
         public MainWindow()
         {
             InitializeComponent();
-
-            Bitmap bitmap = ImageGenerator.GenerateImageByCityName(CityTextBox.Text);
-            BitmapImage bitmapImage = ImageGenerator.BitmapToImageSource(bitmap);
-            ImageViewer1.Source = bitmapImage;
-
+            Loaded += TextBoxHandler;
             CityTextBox.KeyUp += TextBoxHandler;
             CopyButton.Click += CopyButtonHandler;
             SaveAsButton.Click += SaveButtonHandler;
