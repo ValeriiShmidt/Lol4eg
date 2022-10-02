@@ -38,6 +38,7 @@ namespace Lol4eg
             saveFileDialog.Filter = "Bitmap files | *.bmp";
             saveFileDialog.DefaultExt = "bmp";
             saveFileDialog.AddExtension = true;
+            saveFileDialog.FileName = "Untitled";
 
             if (saveFileDialog.ShowDialog() == true)
             {

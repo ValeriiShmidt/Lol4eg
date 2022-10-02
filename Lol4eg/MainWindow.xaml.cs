@@ -26,9 +26,7 @@ namespace Lol4eg
             InitializeComponent();
 
             Bitmap bitmap = ImageGenerator.GenerateImageByCityName(CityTextBox.Text);
-
             BitmapImage bitmapImage = ImageGenerator.BitmapToImageSource(bitmap);
-
             ImageViewer1.Source = bitmapImage;
 
             CityTextBox.KeyUp += TextBoxHandler;
