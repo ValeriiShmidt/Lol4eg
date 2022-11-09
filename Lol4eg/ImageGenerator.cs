@@ -1,9 +1,5 @@
-﻿using System;
-using System.Drawing;
-using System.Drawing.Text;
+﻿using System.Drawing;
 using System.IO;
-using System.Reflection;
-using System.Runtime.InteropServices;
 using System.Windows.Media.Imaging;
 
 namespace Lol4eg
@@ -15,8 +11,8 @@ namespace Lol4eg
 
             Bitmap outputImage = Resources.input_image;
             string firstLine = "Путин подписал указ об исключении " +
-                                 cityName +
-                                 " из состава";
+                               cityName +
+                               " из состава";
 
             string secondLine = "Российской Федерации";
 
